@@ -15,11 +15,10 @@ function launchBot(botPath) {
 
     botProcess.on('close', (code) => {
         console.log(`Le bot ${botPath} s'est arrêté avec le code : ${code}`);
+        
         // Redémarrer le bot en cas de crash ou fermeture
-        if (code !== 0) {
-            console.log(`Redémarrage du bot : ${botPath}`);
-            launchBot(botPath);
-        }
+        console.log(`Redémarrage du bot : ${botPath}`);
+        launchBot(botPath);
     });
 }
 
