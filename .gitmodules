@@ -1,0 +1,9 @@
+[submodule "bots/Basicfit-Coach_discord-bot"]
+	path = bots/Basicfit-Coach_discord-bot
+	url = https://github.com/yamakajump/Basicfit-Coach_discord-bot
+[submodule "bots/Basicfit-Manager_discord-bot"]
+	path = bots/Basicfit-Manager_discord-bot
+	url = https://github.com/yamakajump/Basicfit-Manager_discord-bot
+[submodule "bots/Basicfit-Securite_discord-bot"]
+	path = bots/Basicfit-Securite_discord-bot
+	url = https://github.com/yamakajump/Basicfit-Securite_discord-bot
